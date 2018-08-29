@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="426px" viewBox="0 0 375 426" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Dialogs / Alert</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M360,16 L360,390 L344,406 L16,406 L-1.77635684e-15,390 L0,16 L16,-1.77635684e-15 L344,0 L360,16 Z" id="path-1"></path>
+        <filter x="-6.5%" y="-4.1%" width="113.1%" height="111.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Cover" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(0.000000, -76.000000)">
+            <g id="Dialogs-/-Alert" transform="translate(8.000000, 85.000000)">
+                <g id="Dialogs-/-Surface">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Surface">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="✱-/-Color-/-Surface-/-Main" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                        <g id="✱-/-Color-/-Surface-/-Base">
+                            <rect id="Rectangle-13" x="0" y="0" width="360" height="406"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
